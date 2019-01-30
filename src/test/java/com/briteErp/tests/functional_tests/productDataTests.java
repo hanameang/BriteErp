@@ -1,7 +1,7 @@
-package com.britErp.tests.functional_tests;
+package com.briteErp.tests.functional_tests;
 
-import com.britErp.utilities.ConfigurationReader;
-import com.britErp.utilities.TestBase;
+import com.briteErp.utilities.ConfigurationReader;
+import com.briteErp.utilities.TestBase;
 import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
 
