@@ -1,8 +1,6 @@
-package com.britErp.pages;
+package com.briteErp.pages;
 
-import com.britErp.utilities.Driver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
+import com.briteErp.utilities.Driver;
 import org.openqa.selenium.support.PageFactory;
 
 public class QuotationsPage {

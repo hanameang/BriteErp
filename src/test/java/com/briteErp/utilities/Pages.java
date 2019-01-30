@@ -1,6 +1,6 @@
-package com.britErp.utilities;
+package com.briteErp.utilities;
 
-import com.britErp.pages.*;
+import com.briteErp.pages.*;
 
 public class Pages {
 

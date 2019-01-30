@@ -1,4 +1,4 @@
-package com.britErp.utilities;
+package com.briteErp.utilities;
 
 import java.io.FileInputStream;
 import java.io.IOException;
