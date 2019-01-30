@@ -175,8 +175,9 @@ public class BrowserUtils {
         }
     }
 
-     public WebElement selectRandomTextFromDropdown(Select select) {
+     public static WebElement selectRandomTextFromDropdown(WebElement element) {
         Random random = new Random();
+        Select select = new Select(element);
         List<WebElement> weblist = select.getOptions();
         int optionIndex = 1 + random.nextInt(weblist.size() - 1);
         select.selectByIndex(optionIndex);
