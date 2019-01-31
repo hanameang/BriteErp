@@ -22,7 +22,7 @@ public abstract class TestBase {
     protected static ExtentTest extentLogger;
 
 
-    @BeforeMethod
+    @BeforeMethod (alwaysRun = true)
     public void setupMethod() {
         driver = Driver.getDriver();
         pages = new Pages();
@@ -30,7 +30,7 @@ public abstract class TestBase {
         driver.get(ConfigurationReader.getProperty("url"));
     }
 
-    @AfterMethod
+    @AfterMethod (alwaysRun = true)
     public void tearDownMethod(ITestResult result) throws IOException {
 
 
@@ -46,7 +46,7 @@ public abstract class TestBase {
         Driver.closeDriver();
     }
 
-    @BeforeTest
+    @BeforeTest (alwaysRun = true)
     public void setUpTest() {
         report = new ExtentReports();
 
@@ -72,7 +72,7 @@ public abstract class TestBase {
     }
 
 
-    @AfterTest
+    @AfterTest (alwaysRun = true)
     public void tearDownTest() {
         report.flush();
     }
