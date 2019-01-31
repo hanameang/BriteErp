@@ -12,6 +12,7 @@ public class Pages {
     private CustomersPage customersPage;
     private ConfSalesChannelsPage confSalesChannelsPage;
     private AllChannelsSalesOrdersPage allChannelsSalesOrdersPage;
+    private OrdersToUpsellPage ordersToUpsell;
 
 
 
@@ -72,8 +73,12 @@ public class Pages {
         return allChannelsSalesOrdersPage;
     }
 
-
-
+    public OrdersToUpsellPage getOrdersToUpsell(){
+        if(ordersToUpsell == null){
+            ordersToUpsell = new OrdersToUpsellPage();
+        }
+        return ordersToUpsell;
+    }
 }
 
 
