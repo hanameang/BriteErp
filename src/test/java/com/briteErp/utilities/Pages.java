@@ -15,14 +15,12 @@ public class Pages {
     private OrdersToUpsellPage ordersToUpsell;
 
 
-
     public LoginPage login() {
         if (loginPage == null) {
             loginPage = new LoginPage();
         }
         return loginPage;
     }
-
 
     public QuotationsPage quotationsPage() {
         if (quotationsPage == null) {
