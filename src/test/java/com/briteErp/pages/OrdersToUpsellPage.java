@@ -1,10 +1,11 @@
+//Created by: Mamura Rizaeva
+//Description: Orders To Upsell functionality page factory class
 package com.briteErp.pages;
 
 import com.briteErp.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import java.util.List;
 
 public class OrdersToUpsellPage {

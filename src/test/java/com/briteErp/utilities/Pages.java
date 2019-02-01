@@ -13,6 +13,7 @@ public class Pages {
     private ConfSalesChannelsPage confSalesChannelsPage;
     private AllChannelsSalesOrdersPage allChannelsSalesOrdersPage;
     private OrdersToUpsellPage ordersToUpsell;
+    private SmokeTestHomePage smokeTestHomePage;
 
 
 
@@ -73,11 +74,20 @@ public class Pages {
         return allChannelsSalesOrdersPage;
     }
 
+    //getter for OrdersToUpsell page object class --->Mamura
     public OrdersToUpsellPage getOrdersToUpsell(){
         if(ordersToUpsell == null){
             ordersToUpsell = new OrdersToUpsellPage();
         }
         return ordersToUpsell;
+    }
+
+    //getter for SmokeTestHomePage page object class --->Mamura
+    public SmokeTestHomePage getSmokeTestHomePage(){
+        if(ordersToUpsell == null){
+            smokeTestHomePage = new SmokeTestHomePage();
+        }
+        return smokeTestHomePage;
     }
 }
 
