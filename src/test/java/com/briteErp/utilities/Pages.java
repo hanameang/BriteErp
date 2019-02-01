@@ -16,14 +16,12 @@ public class Pages {
     private SmokeTestHomePage smokeTestHomePage;
 
 
-
     public LoginPage login() {
         if (loginPage == null) {
             loginPage = new LoginPage();
         }
         return loginPage;
     }
-
 
     public QuotationsPage quotationsPage() {
         if (quotationsPage == null) {

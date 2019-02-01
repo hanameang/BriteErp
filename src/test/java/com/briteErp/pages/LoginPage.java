@@ -12,7 +12,6 @@ public class LoginPage {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-
     @FindBy (linkText = "BriteErpDemo")
     public WebElement BriteErpLink;
 
