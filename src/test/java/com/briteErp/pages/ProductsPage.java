@@ -7,11 +7,12 @@ import org.openqa.selenium.support.PageFactory;
 
 
 public class ProductsPage {
+    
     public ProductsPage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    @FindBy(xpath = "//span[@class='btn-group btn-group-sm']/button[2]")
+    @FindBy(xpath = "//button[@class='fa fa-chevron-right btn btn-icon o_pager_next']")
     public WebElement nextPageLink;
 
     @FindBy(linkText = "Products")
@@ -20,11 +21,14 @@ public class ProductsPage {
     @FindBy(linkText = "Sales")
     public WebElement salesLink;
 
+    @FindBy (xpath = "//img[@src='http://52.39.162.23/web/image?model=product.template&field=image_small&id=28&unique=']")
+    public  WebElement graphicsCard;
+
     @FindBy(xpath = "//img[@src='http://52.39.162.23/web/image?model=product.template&field=image_small&id=29&unique=']")
     public WebElement laptopE5023;
 
     @FindBy(xpath = "(//button[@class='btn btn-sm oe_stat_button'])[5]")
-    public WebElement laptopSalesLink;
+    public WebElement graphicsCardSalesLink;
 
     @FindBy(xpath = "//table[@class='o_list_view table table-condensed table-striped o_list_view_ungrouped']/tbody//td/div/input")
     public WebElement checkBoxSO007;
@@ -39,7 +43,7 @@ public class ProductsPage {
     public WebElement deleteLink;
 
     @FindBy(xpath = "(//button[@class='btn btn-sm oe_stat_button'])[6]")
-    public WebElement activeLinkLaptop;
+    public WebElement activeLink;
 
     @FindBy(tagName = "h4")
     public WebElement errorMessageStatus;
