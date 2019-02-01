@@ -50,7 +50,6 @@ public abstract class TestBase {
     public void setUpTest() {
         report = new ExtentReports();
 
-
         String filePath = System.getProperty("user.dir") + "/test-output/report.html";
 
         htmlReporter = new ExtentHtmlReporter(filePath);
