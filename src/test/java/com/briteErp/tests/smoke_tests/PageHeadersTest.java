@@ -26,7 +26,7 @@ public class PageHeadersTest extends TestBase {
 
         extentLogger.info("Clicking on Sales Module");
         pages.getSmokeTestHomePage().salesModule.click();
-        Thread.sleep(5000);
+        Thread.sleep(8000);
 
         extentLogger.info("Getting all tab headers and verifying.");
         Assert.assertEquals(pages.getSmokeTestHomePage().quatationsHeader.getText(), ApplicationConstants.QUOTATIONS_HEADER);

@@ -11,8 +11,10 @@ import static com.briteErp.utilities.BrowserUtils.waitForPageToLoad;
 
 public class productDataTests extends TestBase {
 
-    @Test
-    public void exportDeleteOptions()  {
+    //Mary
+
+   @Test (priority = 1)
+    public void exportDeleteOptions() throws InterruptedException {
 
         extentLogger = report.createTest("Export/Delete Options");
         extentLogger.info("Verifying export and delete options are available.");
@@ -26,12 +28,12 @@ public class productDataTests extends TestBase {
         waitForPageToLoad(10000);
 
         pages.productsPage().productsLink.click();
-        waitForPageToLoad(10000);
 
-        extentLogger.info("Clicking on Laptop product");
-        pages.productsPage().laptopE5023.click();
+        Thread.sleep(6000);
+        extentLogger.info("Clicking on the product");
+        pages.productsPage().graphicsCard.click();
 
-        pages.productsPage().laptopSalesLink.click();
+        pages.productsPage().graphicsCardSalesLink.click();
         waitForPageToLoad(10000);
 
         extentLogger.info("Selecting first checkbox.");
@@ -42,14 +44,16 @@ public class productDataTests extends TestBase {
 
         extentLogger.info("Verifying export link is available");
         Assert.assertEquals(pages.productsPage().exportLink.getText(),"Export");
+        Thread.sleep(4000);
 
         extentLogger.info("Verifying delete link is available");
         Assert.assertEquals(pages.productsPage().deleteLink.getText(),"Delete");
+        Thread.sleep(2000);
 
     }
 
-    @Test
-    public void productStatusTest(){
+    @Test (priority = 2)
+    public void productStatusTest() throws InterruptedException {
 
         extentLogger = report.createTest("Product status");
         extentLogger.info("Verifying that user is not able to change product status");
@@ -59,24 +63,32 @@ public class productDataTests extends TestBase {
         extentLogger.info("Login to application");
         pages.login().login(ConfigurationReader.getProperty("emailUser"),ConfigurationReader.getProperty("passwordUser"));
 
+        waitForPageToLoad(10000);
+
         pages.productsPage().salesLink.click();
         extentLogger.info("Navigating to products page.");
-        pages.productsPage().productsLink.click();
+        waitForPageToLoad(10000);
 
-        extentLogger.info("Selecting Laptop product");
-        pages.productsPage().laptopE5023.click();
+        pages.productsPage().productsLink.click();
+        waitForPageToLoad(10000);
+
+        extentLogger.info("Clicking on the product");
+        pages.productsPage().graphicsCard.click();
 
         extentLogger.info("Clicking on 'Active' link ");
-        pages.productsPage().activeLinkLaptop.click();
+        pages.productsPage().activeLink.click();
+        waitForPageToLoad(10000);
+
 
         extentLogger.info("Verifying user is not able to change the product status and gets an error message");
 
         Assert.assertEquals(pages.productsPage().errorMessageStatus.getText(),ACCESS_ERROR_MESSAGE);
+        Thread.sleep(2000);
 
 
     }
 
-    @Test
+    @Test (priority = 3)
     public void schedulingActivityTest() throws InterruptedException {
 
         extentLogger = report.createTest("Scheduling Activity");
@@ -89,13 +101,17 @@ public class productDataTests extends TestBase {
 
         pages.productsPage().salesLink.click();
         extentLogger.info("Navigating to products page.");
-        pages.productsPage().productsLink.click();
+        waitForPageToLoad(10000);
 
-        extentLogger.info("Selecting Laptop product");
-        pages.productsPage().laptopE5023.click();
-        Thread.sleep(1000);
+        pages.productsPage().productsLink.click();
+        waitForPageToLoad(10000);
+
+        extentLogger.info("Clicking on the product");
+        pages.productsPage().graphicsCard.click();
 
         pages.productsPage().scheduleLink.click();
+        waitForPageToLoad(10000);
+
         pages.productsPage().activityDropdown.click();
 
         extentLogger.info("Selecting option from dropdown");
@@ -108,12 +124,14 @@ public class productDataTests extends TestBase {
         extentLogger.info("Verifying user is not able to schedule any activity and gets an error message.");
         Assert.assertEquals(pages.productsPage().errorMessageSchedule.getText(),ACCESS_ERROR_MESSAGE);
 
-        Thread.sleep(1000);
+        Thread.sleep(2000);
 
 
 
     }
 
 
-
 }
+
+       
+      
