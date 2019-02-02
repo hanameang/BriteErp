@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc6503f6-47db-41ad-908d-23395154aba3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/briteErp/tests/smoke_tests/PageHeadersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/briteErp/tests/smoke_tests/PageHeadersTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/briteErp/utilities/ApplicationConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/briteErp/utilities/ApplicationConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/briteErp/pages/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/briteErp/pages/QuotationsPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/briteErp/utilities/ApplicationConstants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/briteErp/utilities/Pages.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/briteErp/utilities/TestBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.html" afterDir="false" />
+    <list default="true" id="69de8273-486d-400b-9c48-e9fa96bcadc5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/briteErp/pages/AllChannelsSalesOrdersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/briteErp/pages/AllChannelsSalesOrdersPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/briteErp/tests/functional_tests/salesCreateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/briteErp/tests/functional_tests/salesCreateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/briteErp/utilities/Pages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/briteErp/utilities/Pages.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testng_runner.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/briteErp/pages/AllChannelsSalesOrdersPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="-85">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/briteErp/tests/functional_tests/salesCreateTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -61,10 +64,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
-    <option name="y" value="1" />
-    <option name="width" value="909" />
-    <option name="height" value="511" />
+    <option name="x" value="157" />
+    <option name="y" value="87" />
+    <option name="width" value="1421" />
+    <option name="height" value="962" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -75,38 +78,38 @@
         <subPane>
           <expand>
             <path>
-              <item name="BriteErp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BriteErp" type="462c0819:PsiDirectoryNode" />
+              <item name="BriteErpTHE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BriteErpTHE" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BriteErp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BriteErp" type="462c0819:PsiDirectoryNode" />
+              <item name="BriteErpTHE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BriteErpTHE" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BriteErp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BriteErp" type="462c0819:PsiDirectoryNode" />
+              <item name="BriteErpTHE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BriteErpTHE" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BriteErp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BriteErp" type="462c0819:PsiDirectoryNode" />
+              <item name="BriteErpTHE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BriteErpTHE" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BriteErp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BriteErp" type="462c0819:PsiDirectoryNode" />
+              <item name="BriteErpTHE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BriteErpTHE" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="briteErp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BriteErp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BriteErp" type="462c0819:PsiDirectoryNode" />
+              <item name="BriteErpTHE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BriteErpTHE" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -114,8 +117,8 @@
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BriteErp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BriteErp" type="462c0819:PsiDirectoryNode" />
+              <item name="BriteErpTHE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BriteErpTHE" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -123,23 +126,14 @@
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BriteErp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BriteErp" type="462c0819:PsiDirectoryNode" />
+              <item name="BriteErpTHE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BriteErpTHE" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="briteErp" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="smoke_tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BriteErp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BriteErp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="briteErp" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="functional_tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -150,7 +144,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549048396519" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549079507628" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -301,10 +295,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21331316" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26477733" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -523,6 +517,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteErp/pages/AllChannelsSalesOrdersPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/briteErp/tests/functional_tests/salesCreateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
