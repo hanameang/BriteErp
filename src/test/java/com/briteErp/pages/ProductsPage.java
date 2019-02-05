@@ -63,5 +63,81 @@ public class ProductsPage {
     @FindBy(xpath = "(//h4)[5]")
     public WebElement errorMessageSchedule;
 
+    @FindBy (xpath = "//span[@class='o_field_monetary o_field_number o_field_widget o_readonly_modifier']")
+    public  WebElement laptopSalesPrice;
+
+    @FindBy (xpath = "(//span[@class='o_field_monetary o_field_number o_field_widget o_readonly_modifier'])[2]")
+    public WebElement lapTopSubTotal;
+
+    @FindBy (xpath = "(//button[@class='btn btn-sm oe_stat_button'])[5]")
+    public  WebElement laptopSalesLink;
+
+    @FindBy (xpath = "//div[@class='btn-group o_dropdown open']/ul//a")
+    public WebElement exportLinkSelect;
+
+    @FindBy (xpath = "//div[@class='o_field_tree_structure']/div")
+    public  WebElement fields;
+    
+    @FindBy (xpath = "//span[@class='o_field_char o_field_widget o_readonly_modifier o_field_empty']")
+    public WebElement barcode;
+
+    @FindBy (xpath = "//button[@class='btn btn-primary btn-sm o-kanban-button-new btn-default']")
+    public  WebElement createButton;
+
+    @FindBy (xpath = "//input[@class='o_field_char o_field_widget o_input o_required_modifier']")
+    public  WebElement productNameEntry;
+
+    @FindBy (xpath = "//button[@class='btn btn-primary btn-sm o_form_button_save']")
+    public  WebElement saveButton;
+
+    @FindBy (xpath = "//div[@class='o_notification_manager']")
+    public WebElement errorMessageInvalidField;
+
+
+    @FindBy (xpath = "//input[@class='o_field_char o_field_widget o_input']")
+    public  WebElement barcodeBox;
+
+    @FindBy (xpath = "//button[@class='btn btn-sm btn-default']")
+    public  WebElement updateQuantityButton;
+
+    @FindBy (xpath = "//input[@class='o_field_float o_field_number o_field_widget o_input o_required_modifier']")
+    public  WebElement quantityOnHandBox;
+
+    @FindBy (xpath = "//button[@class='btn btn-sm btn-primary']")
+    public WebElement applyButton;
+
+    @FindBy (xpath = "(//h4)[2]")
+    public  WebElement errorMessageQuantity;
+
+
+ public static void productName(String productName) {
+
+        List<WebElement> products = Driver.getDriver().findElements(By.xpath("(//div[@class='oe_kanban_global_click o_kanban_record'])/div[2]/strong"));
+
+        for (WebElement product : products) {
+
+            if(product.getText().equals(productName)){
+
+                Assert.assertEquals(product.getText(),productName);
+
+            }
+        }
+    }
+
+   public static void allFields(){
+
+        List<WebElement> list = Driver.getDriver().findElements(By.xpath("//div[@class='o_field_tree_structure']/div"));
+
+        for(int i = 0; i< list.size()-1; i++){
+
+           String first = list.get(i).getText();
+           String next = list.get(i+1).getText();
+            System.out.println(first+" compare to "+next);
+
+            Assert.assertTrue(first.compareTo(next)<=0);
+
+        }
+    }
 
 }
+
